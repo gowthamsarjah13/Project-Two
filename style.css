@@ -1,0 +1,96 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navi{
+    /* border: 2px solid red; */
+    background-color: rgb(24, 51, 61);
+    color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+
+.mid-body{
+    height: auto;
+    width: 100%;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 10%;
+    
+}
+.mid-body-child{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.card{
+    width:500px;
+    /* border: none; */
+    box-shadow: 2px 2px;
+    text-align: center;
+}
+.image{
+    width:fit-content;
+}
+.footer{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(11, 13, 14);
+    position:fixed;
+    bottom: 0%;
+}
+article{
+    /* color:#165af7; */
+    color: #ffff;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.form1{
+    position: absolute;
+    top: 22%;
+    height: 50vh;
+    /* border: 2px solid red; */
+    outline: none;
+    border-radius: 12px;
+    /* box-shadow: 5px 5px; */
+    width: 50%;
+    padding: 22px;
+    left: 25%;
+    background-color: rgb(24, 51, 61);
+    color: white;
+}
+.form2{
+    position: absolute;
+    top: 17%;
+    height: 70vh;
+    /* border: 2px solid red; */
+    outline: none;
+    border-radius: 12px;
+    /* box-shadow: 5px 5px; */
+    width: 50%;
+    padding: 22px;
+    left: 25%;
+    background-color: rgb(24, 51, 61);
+    color: white;
+}
+form>button{
+    position: absolute;
+    left: 43%;
+}
+#login{display: none;}
+#register{display: none;}
+
+.card-footer>button{
+    margin-left: 0.5rem;
+}
